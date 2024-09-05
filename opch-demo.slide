@@ -1,9 +1,44 @@
-# OpenShift Packet Capture Helper
+# OPCH Demo
 5 Sep 2024
 
 Vinu Kochukuttan (kevy)
 vinu@redhat.com
-Senior software maintenance engineer
+Software maintenance engineer
 
 ## OpenShift Packet Capture Helper
+
 .link https://access.redhat.com/labs/ocpch/
+
+.image tool.png 300 600
+
+- CNI
+- Source
+- Destination **OR** Points included in the path to the destination
+
+## FAQ
+
+- How does one execute the `tcpdump` command on an RHCOS node?
+- How can multiple packet capture commands be executed simultaneously in `toolbox`?
+- Is there an essential article available for convenient packet collection from Pods or nodes on OpenShift?
+- What are the additional information required for packet analysis?
+- How can one reduce the size of the pcap file while conducting an `iperf` test?
+- What are the potential disadvantages of using `-i any`?
+
+## Other usage
+
+- Understand the flow
+- Helpful for first round of troubleshooting
+
+## If OPCH is not enough
+
+- The `-i any` approach
+
+## Bugs and enhancements
+
+- `project = CPLABS AND component = app_dev_other`
+- Miro mindmap
+  - https://miro.com/app/board/uXjVKwZJZFc=/
+
+## Known issues and improvements
+
+.link https://issues.redhat.com/browse/CPLABS-2191
